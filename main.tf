@@ -1,4 +1,4 @@
 resource "local_file" "local_file_example" {
-  content  = "foo!"
-  filename = "${path.module}/foo.bar"
+  filename = "E:/basics/terraform/example1.txt"
+  content = " this is terraform course"
 }
